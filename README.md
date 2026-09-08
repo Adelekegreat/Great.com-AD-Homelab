@@ -1,7 +1,7 @@
 # Great.com: A Windows Server & Active Directory Infrastructure Lab
 
 ## Project Overview
-This project documents the design, deployment, and configuration of an on-premises Windows Server enterprise environment. The lab focuses on core identity and user management, high-availability network services, and security best practices using Active Directory Domain Services (AD DS), DNS, DHCP, and Group Policy.
+This project documents the design and configuration of an on-premises Windows Server enterprise environment. The lab focuses on core identity and user management, high-availability network services, and security best practices using Active Directory Domain Services (AD DS), DNS, DHCP, and Group Policy.
 
 ## Infrastructure Architecture
 * **Domain Controllers:** 2 ( Primary DC [Great-DC-01] and Secondary DC [Great-DC-02] )
