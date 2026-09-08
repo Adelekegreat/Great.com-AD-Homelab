@@ -123,7 +123,7 @@ This project documents the design and configuration of an on-premises Windows Se
 
 <br><br>
   
-  * Configured a Fine-Grained Password Policy (FGPP) specifically for the break-glass security group via the Active Directory Administrative Center (ADAC). Since The lockout policy above applies to this account too by default, an account meant for emergencies shouldn't be the thing that's locked out during one. I Fixed this with a Fine-Grained Password Policy scoped to the `Tier 0 - GlassBreak` group, lockout threshold set to 0. PSOs only target users or groups, not OUs, which is why the group exists. I also set the precedence to 10 , but it doesn't really matter cause it's the only 
+  * Configured a Fine-Grained Password Policy (FGPP) specifically for the break-glass security group via the Active Directory Administrative Center (ADAC). Since The lockout policy above applies to this account too by default, an account meant for emergencies shouldn't be the thing that's locked out during one. I Fixed this with a Fine-Grained Password Policy scoped to the `Tier 0 - GlassBreak` group, lockout threshold set to 0. PSOs only target users or groups, not OUs, which is why the group exists. I also set the precedence to 10 , but it doesn't really matter cause it's the only Password policy created.
 
     <img width="419" height="356" alt="Screenshot 2026-09-08 145218" src="https://github.com/user-attachments/assets/339c6282-a71f-4449-8b40-9356c1c1824d" />
     <img width="419" height="356" alt="Screenshot 2026-09-08 150022" src="https://github.com/user-attachments/assets/a404a00f-c9e5-483c-ac6a-72baa28b1682" />
